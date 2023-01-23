@@ -46,10 +46,10 @@ fs.writeFile('index.html', `<!DOCTYPE html>
     <h2 id="location">Location: ${response.location}</h2>
     <h2 id="bio">A little about me:</h2>
     <p>${response.bio}</p>
-    <a href="${response.linkedIn}">
+    <a href="${response.linkedIn}" target="_blank">
         <h2 id="linkedin">LinkedIn</h2>
     </a>
-    <a href="${response.github}">
+    <a href="${response.github}" target="_blank">
         <h2 id="github">GitHub</h2>
     </a>
 </body>
