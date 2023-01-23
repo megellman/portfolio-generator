@@ -1,0 +1,20 @@
+:root{
+    --header:'Yeseva One', cursive;
+    --body:  'Josefin Sans', sans-serif;
+}
+
+*{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--body);
+}
+#name{
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(101, 0, 201), rgb(234, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--header);
+}
+
+
